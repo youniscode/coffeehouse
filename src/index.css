@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global dark theme base (clean + minimal like jonascode) */
+html,
+body {
+  @apply bg-neutral-950 text-neutral-200 antialiased;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+/* Smooth font + rendering */
+body {
+  @apply font-sans leading-relaxed;
+}
+
+/* Utility class for sections */
+.section-container {
+  @apply max-w-5xl mx-auto px-6;
+}
