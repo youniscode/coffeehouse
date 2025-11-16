@@ -286,14 +286,21 @@ export default function CoffeeHouse() {
             >
               Example booking button
             </button>
-            <a
-              href="https://github.com/youniscode/coffeehouse"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-indigo-500 text-indigo-300 px-4 py-2 rounded-xl text-sm transition-colors duration-200 hover:bg-indigo-600/10 focus:outline-none focus:ring-2 focus:ring-indigo-500/40 active:scale-[0.98]"
-            >
-              View Source →
-            </a>
+            <div className="mt-2">
+              <a
+                href="https://github.com/youniscode/coffeehouse"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-xs text-slate-500 hover:text-slate-300"
+              >
+                ⭐ Star on GitHub
+                <img
+                  src="https://img.shields.io/github/stars/youniscode/coffeehouse?style=social"
+                  alt="GitHub stars"
+                  className="opacity-80"
+                />
+              </a>
+            </div>
           </div>
         </section>
       </div>
