@@ -7,7 +7,7 @@ export default function CoffeeHouse() {
       <header className="sticky top-0 z-40 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
           <a
-            href="/"
+            href="https://jonascode.com"
             className="text-xs text-slate-400 hover:text-slate-100 hover:underline underline-offset-4"
           >
             ← Back to portfolio
